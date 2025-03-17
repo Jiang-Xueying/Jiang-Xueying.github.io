@@ -48,8 +48,6 @@ My research interests include computer vision and deep learning, especially in t
 
 <a href="https://arxiv.org/abs/2411.13927">paper</a> 
 / <a href="https://raw.githubusercontent.com/jiang-xueying/jiang-xueying.github.io/main/bibtex/jiang2024multimodal.html">bibtex</a>
-/ <a href="">code</a>
-/ <a href="">dataset</a>
 / <a href="https://jiang-xueying.github.io/projects/jiang2024multimodal/index">project page</a>
 
 </div>
