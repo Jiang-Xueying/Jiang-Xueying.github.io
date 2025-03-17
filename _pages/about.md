@@ -88,6 +88,7 @@ My research interests include computer vision and deep learning, especially in t
 
 <a href="https://arxiv.org/pdf/2402.19144v1.pdf">paper</a> 
 / <a href="https://raw.githubusercontent.com/jiang-xueying/jiang-xueying.github.io/main/bibtex/jiang2024weakly.html">bibtex</a>
+/ <a href="">project page</a>
 
 </div>
 </div>
@@ -129,7 +130,7 @@ Sheng Jin, <u><b>Xueying Jiang</b></u>, Jiaxing Huang, Lewei Lu, Shijian Lu
 
 <a href="https://openaccess.thecvf.com/content/ICCV2023/papers/Jiang_Domain_Generalization_via_Balancing_Training_Difficulty_and_Model_Capability_ICCV_2023_paper.pdf">paper</a> 
 / <a href="https://raw.githubusercontent.com/jiang-xueying/jiang-xueying.github.io/main/bibtex/jiang2023domain.html">bibtex</a>
-
+/ <a href="">project page</a>
 </div>
 </div>
 
