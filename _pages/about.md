@@ -38,7 +38,7 @@ My research interests include computer vision and deep learning, especially in t
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/Preprint25_Exploring.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Multimodal 3D Reasoning Segmentation with Complex Scenes](https://arxiv.org/abs/2503.12974)
+[Exploring 3D Activity Reasoning and Planning: From Implicit Human Intentions to Route-Aware Planning](https://arxiv.org/abs/2503.12974)
 
 [//]: # (<strong><span class='show_paper_citations' data='ElujT6oAAAAJ:hqOjcs7Dif8C'></span></strong>)
 
