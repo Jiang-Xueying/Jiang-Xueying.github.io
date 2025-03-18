@@ -33,6 +33,26 @@ My research interests include computer vision and deep learning, especially in t
 
 # 📝 Publications 
 
+[//]: # (----------- Preprint 2025 -------------------------)
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/Preprint25_Exploring.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Multimodal 3D Reasoning Segmentation with Complex Scenes](https://arxiv.org/abs/2503.12974)
+
+[//]: # (<strong><span class='show_paper_citations' data='ElujT6oAAAAJ:hqOjcs7Dif8C'></span></strong>)
+
+<u><b>Xueying Jiang</b></u>, Wenhao Li, Xiaoqin Zhang, Ling Shao, Shijian Lu
+
+<i>Preprint, 2025</i>
+
+<a href="https://arxiv.org/abs/2503.12974">paper</a> 
+/ <a href="https://raw.githubusercontent.com/jiang-xueying/jiang-xueying.github.io/main/bibtex/jiang2025exploring.html">bibtex</a>
+/ <a href="https://jiang-xueying.github.io/projects/jiang2025exploring/index">project page</a>
+
+</div>
+</div>
+
 [//]: # (----------- Preprint 2024 -------------------------)
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/Preprint24_Multimodal.jpg' alt="sym" width="100%"></div></div>
