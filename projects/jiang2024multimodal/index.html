@@ -161,7 +161,8 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            The recent development in multimodal learning has greatly advanced the research in 3D scene understanding in various real-world tasks such as embodied AI. However, most existing work shares two typical constraints: 1) they are short of reasoning ability for interaction and interpretation of human intension and 2) they focus on scenarios with single-category objects only which leads to over-simplified textual descriptions due to the negligence of multi-object scenarios and spatial relations among objects. We bridge the research gaps by proposing a 3D reasoning segmentation task for multiple objects in scenes. The task allows producing 3D segmentation masks and detailed textual explanations as enriched by 3D spatial relations among objects. To this end, we create ReasonSeg3D, a large-scale and high-quality benchmark that integrates 3D spatial relations with generated question-answer pairs and 3D segmentation masks. In addition, we design MORE3D, a simple yet effective method that enables multi-object 3D reasoning segmentation with user questions and textual outputs. Extensive experiments show that MORE3D excels in reasoning and segmenting complex multi-object 3D scenes, and the created ReasonSeg3D offers a valuable platform for future exploration of 3D reasoning segmentation. The dataset and code will be released.
+            The recent development in multimodal learning has greatly advanced the research in 3D scene understanding in various real-world tasks such as embodied AI. However, most existing work shares two typical constraints: 1) they are short of reasoning ability for interaction and interpretation of human intension and 2) they focus on scenarios with single-category objects only which leads to over-simplified textual descriptions due to the negligence of multi-object scenarios and spatial relations among objects. We bridge the research gaps by proposing a 3D reasoning segmentation task for multiple objects in scenes. The task allows producing 3D segmentation masks and detailed textual explanations as enriched by 3D spatial relations among objects. To this end, we create ReasonSeg3D, a large-scale and high-quality benchmark that integrates 3D segmentation masks and 3D spatial relations with generated question-answer pairs. In addition, we design MORE3D, a novel 3D reasoning network that works with queries of multiple objects and tailored 3D scene understanding designs. MORE3D learns detailed explanations on 3D relations and employs them to capture spatial information of objects and reason textual outputs. Extensive experiments show that MORE3D excels in reasoning and segmenting complex multi-object 3D scenes, and the created ReasonSeg3D offers a valuable platform for future exploration of 3D reasoning segmentation. The dataset and code will be released.
+
 
           </p>
         </div>
@@ -205,7 +206,7 @@
         </center>
         <div class="level-set has-text-justified">
           <p>
-             Overview of our proposed MORE3D.
+             Overview of our proposed MORE3D: Given an input point cloud, the 3D Encoder first extracts per-point features and projects them into sequential features. The sequential features, together with the textual input, are then fed into a multimodal LLM to perform reasoning, producing textual answers with both detailed explanations and descriptions of 3D spatial relationships among multiple objects. Finally, embeddings for multiple <SEG> tokens and the per-point features are passed to the 3D Decoder to produce 3D segmentation masks and classification results. The module marked with a snowflake icon is frozen during training, while those marked with a flame icon are trainable.
           </p>
         </div>
       </div>
@@ -225,7 +226,7 @@
       </center>
       <div class="level-set has-text-justified">
         <p>
-           Extraction of object-specific point cloud embeddings. Each predicted textual answer contains multiple <SEG> tokens, with their positions recorded in a multi-segment index list $I_{seg}$. The LLM embedding corresponding to each <SEG> token is extracted based on the multi-segment index list for obtaining object-specific point cloud embeddings.
+           Extraction of object-specific point cloud embeddings. Each predicted textual answer contains multiple <SEG> tokens, with their positions recorded in a multi-segment index list. The LLM embedding corresponding to each <SEG> token is extracted based on the multi-segment index list for obtaining object-specific point cloud embeddings.
         </p>
       </div>
     </div>
@@ -246,7 +247,7 @@
       </center>
       <div class="level-set has-text-justified">
         <p>
-           Segmentation visualization over the ReasonSeg3D validation set. Each case presents a user input question, the corresponding input point cloud, the ground-truth segmentation, and the prediction by the proposed MORE3D.
+           Segmentation visualization over the ReasonSeg3D validation set. Each case presents a user input question, the corresponding input point cloud, the ground-truth segmentation, and the prediction by the proposed MORE3D. Best viewed in color and zoom-in. Green indicates chairs, and pink indicates tables.
         </p>
       </div>
     </div>
