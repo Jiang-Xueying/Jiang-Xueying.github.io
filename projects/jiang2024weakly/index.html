@@ -148,13 +148,13 @@
   <div class="columns is-centered">
     <div class="column is-full">
       <div class="content">
-        <h2 class="title is-3">Method Overview: Overall Framework of MonoMAE</h2>
+        <h2 class="title is-3">Method Overview</h2>
         <center>
-        <img src="static/images/overall_architecture.jpg" alt="Overall Framework of MonoMAE." class="center-image blend-img-background"/>
+        <img src="static/images/overall_architecture.jpg" class="center-image blend-img-background"/>
         </center>
         <div class="level-set has-text-justified">
           <p>
-             The framework of MonoMAE training: Given a single-view image, the 3D Backbone extracts 3D object query features which are grouped into non-occluded query features and occluded query features by the Non-Occluded Query Grouping. The Depth-Aware Masking then masks the non-occluded query features to simulate object occlusions adaptively based on the object depth, and the Completion Network then learns to reconstruct the masked queries. Finally, the completed and the occluded query features are concatenated to train the 3D Detection Head for 3D predictions.
+             The framework of the proposed self-knowledge distillation network. The framework consists of a depth-guided self-teaching network and a monocular 3D detection network. The depth-guided self-teaching network acquires comprehensive 3D localization knowledge by leveraging depth information and transfers its learned expertise to the monocular 3D detection network via soft label distillation to enhance its performance. We design an uncertainty-aware distillation loss and a gradient-targeted transfer modulation strategy to facilitate the knowledge transfer between the two networks effectively. During inference, the monocular 3D detection network extracts intrinsic depth information from single-view images independently with little computational overhead.
           </p>
         </div>
       </div>
@@ -163,6 +163,25 @@
 </div>
 </section>
 
+  <section class="section hero is-light">
+<div class="container is-max-desktop">
+<div class="columns is-centered">
+  <div class="column is-full">
+    <div class="content">
+      <h2 class="title is-3">Detection Visualization</h2>
+      <center>
+      <img src="static/images/visualization.jpg" class="center-image blend-img-background"/>
+      </center>
+      <div class="level-set has-text-justified">
+        <p>
+           Qualitative illustration on KITTI val set. Red boxes denote ground-truth annotations and Green boxes denote our predictions. The ground truth of LiDAR point clouds is utilized for visualization purposes only. Best viewed with zoom-in.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</section>
 
 
 <!--BibTex citation -->
