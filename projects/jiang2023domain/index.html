@@ -165,11 +165,11 @@
       <div class="content">
         <h2 class="title is-3">Visualization of the model's capability versus the augmentation degree for new training samples</h2>
         <center>
-        <img src="static/images/overall_architecture.jpg" class="center-image blend-img-background"/>
+        <img src="static/images/difficulty_vs_skill.jpg" class="center-image blend-img-background"/>
         </center>
         <div class="level-set has-text-justified">
           <p>
-             Overall architecture of the proposed Momentum Difficulty (MoDify). In the MoDify-DA flow (highlighted by blue arrows), the network takes the original image as input and generates its loss, and applies the loss to compute the difficulty level with the Loss Bank. MoDify-DA dynamically adjusts the strength of data augmentation. In the MoDify-NO flow (highlighted by red arrows), the network takes the augmented image as input. Then the difficulty degree of the augmented image is calculated in the same way. MoDify-NO decides whether postpone, drop, or learn from this sample. Noted the sample is fed for training only if its difficulty level is aligned with the model's capability. Additionally, MoDify-DA introduces little computational overhead without involving any back propagation.
+             Visualization of the model's capability versus the augmentation degree for new training samples (indicating the difficult level of augmented training samples) along the training iterations. Colors indicate different training iterations, ranging from red to blue as the number of iterations increases. The illustration shows that a low (or high) data augmentation degree is automatically adopted to generate training samples of low (or high) difficult levels at the early (or late) training stage when the capability of contemporarily trained models is low (or high).
           </p>
         </div>
       </div>
