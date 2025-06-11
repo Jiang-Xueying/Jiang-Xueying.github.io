@@ -12,6 +12,9 @@ main:
   - title: "Education"
     url: "/#education"
 
+  - title: "Work Experience"
+    url: "/#work experience"
+
   - title: "Service"
     url: "/#service"
 
