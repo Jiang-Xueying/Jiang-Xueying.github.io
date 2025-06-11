@@ -183,7 +183,7 @@ Jingyi Zhang, Jiaxing Huang, <u><b>Xueying Jiang</b></u>, Shijian Lu
 - *2018.09 - 2022.07:* Bachelor in Intelligence Science and Technology, School of Electronics Engineering and Computer Science, Peking University
 
 
-<span class='anchor' id='work experience'></span>
+<span class='anchor' id='work-experience'></span>
 
 # 💻 Work Experience
 - *XX - XX:* Research Intern, DAMO Academy, Alibaba Group
