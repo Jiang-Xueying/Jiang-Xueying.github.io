@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a third year Ph.D. student at <a href="https://www.ntu.edu.sg/">Nanyang Technological University</a>, supervised by Prof. <a href="https://personal.ntu.edu.sg/shijian.lu/index.htm">Lu Shijian</a>. I received my B.S. degree from <a href="https://www.pku.edu.cn/">Peking University</a> in 2022, supervised by Prof. <a href="http://www.vie.group/ttj">Jiang Tingting</a>.
+I'm a Ph.D. student at <a href="https://www.ntu.edu.sg/">Nanyang Technological University</a>, supervised by Prof. <a href="https://personal.ntu.edu.sg/shijian.lu/index.htm">Lu Shijian</a>. I received my B.S. degree from <a href="https://www.pku.edu.cn/">Peking University</a> in 2022, supervised by Prof. <a href="http://www.vie.group/ttj">Jiang Tingting</a>.
 
 My research interests include computer vision and deep learning, especially in the fields of 3D/2D scene understanding.
 
@@ -188,14 +188,13 @@ Jingyi Zhang, Jiaxing Huang, <u><b>Xueying Jiang</b></u>, Shijian Lu
 [//]: # ()
 [//]: # (# 💻 Work Experience)
 
-[//]: # (- *XX - XX:* Research Intern, DAMO Academy, Alibaba Group)
 
 
 
 <span class='anchor' id='service'></span>
 # 🧑‍⚖️ Service
 ## Conference Reviewer
-- CVPR, ICCV, ECCV, NeurIPS, ICML, ICLR, MM, ACCV
+- CVPR, ICCV, ECCV, NeurIPS, ICML, ICLR, AAAI, MM, ACCV
 
 
 ## Journal Reviewer
