@@ -38,7 +38,7 @@ My research interests lie especially in the fields of 3D and 2D scene understand
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/Preprint25_Exploring.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Exploring 3D Activity Reasoning and Planning: From Implicit Human Intentions to Route-Aware Planning](https://arxiv.org/abs/2503.12974)
+[Exploring 3D Reasoning-Driven Planning: From Implicit Human Intentions to Route-Aware Activity Planning](https://arxiv.org/abs/2503.12974)
 
 [//]: # (<strong><span class='show_paper_citations' data='ElujT6oAAAAJ:hqOjcs7Dif8C'></span></strong>)
 
