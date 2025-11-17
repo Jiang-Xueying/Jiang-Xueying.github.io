@@ -24,10 +24,10 @@ My research interests lie especially in the fields of 3D and 2D scene understand
 <span class='anchor' id='news'></span>
 
 # 🔥 News
-- *2024.09*: One paper is accepted by <b>NeurIPS 2024!</b>
-- *2024.02*: One paper is accepted by <b>CVPR 2024!</b>
-- *2024.01*: One paper is accepted by <b>ICLR 2024!</b>
-- *2023.07*: Two papers are accepted by <b>ICCV 2023!</b>
+- *2024.09*: One paper is accepted by <b>NeurIPS 2024</b>!
+- *2024.02*: One paper is accepted by <b>CVPR 2024</b>!
+- *2024.01*: One paper is accepted by <b>ICLR 2024</b>!
+- *2023.07*: Two papers are accepted by <b>ICCV 2023</b>!
 
 <span class='anchor' id='publications'></span>
 
@@ -179,8 +179,8 @@ Jingyi Zhang, Jiaxing Huang, <u><b>Xueying Jiang</b></u>, Shijian Lu
 <span class='anchor' id='education'></span>
 
 # 📖 Education
-- *2022.08 - Present:* Doctor of Philosophy, S-Lab, College of Computing and Data Science, Nanyang Technological University
-- *2018.09 - 2022.07:* Bachelor in Intelligence Science and Technology, School of Electronics Engineering and Computer Science, Peking University
+- *2022 - Present:* Doctor of Philosophy, S-Lab, College of Computing and Data Science, Nanyang Technological University
+- *2018 - 2022:* Bachelor in Intelligence Science and Technology, School of Electronics Engineering and Computer Science, Peking University
 
 
 [//]: # (<span class='anchor' id='work-experience'></span>)
