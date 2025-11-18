@@ -21,13 +21,18 @@ I'm a Ph.D. student at <a href="https://www.ntu.edu.sg/">Nanyang Technological U
 
 My research interests lie especially in the fields of 3D and 2D scene understanding.
 
-<span class='anchor' id='news'></span>
+[//]: # (<span class='anchor' id='news'></span>)
 
-# 🔥 News
-- *2024.09*: One paper is accepted by <b>NeurIPS 2024</b>!
-- *2024.02*: One paper is accepted by <b>CVPR 2024</b>!
-- *2024.01*: One paper is accepted by <b>ICLR 2024</b>!
-- *2023.07*: Two papers are accepted by <b>ICCV 2023</b>!
+[//]: # ()
+[//]: # (# 🔥 News)
+
+[//]: # (- *2024.09*: One paper is accepted by <b>NeurIPS 2024</b>!)
+
+[//]: # (- *2024.02*: One paper is accepted by <b>CVPR 2024</b>!)
+
+[//]: # (- *2024.01*: One paper is accepted by <b>ICLR 2024</b>!)
+
+[//]: # (- *2023.07*: Two papers are accepted by <b>ICCV 2023</b>!)
 
 <span class='anchor' id='publications'></span>
 
