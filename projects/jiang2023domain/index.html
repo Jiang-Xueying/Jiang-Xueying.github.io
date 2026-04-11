@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>MoDify</title>
+<!--  下面这个icon要记得注释掉-->
+<!--  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">-->
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">Domain Generalization via Balancing Training Diffculty and Model Capability</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="https://jiang-xueying.github.io/" target="_blank">Xueying Jiang</a><sup>1</sup>,</span>
+              <span class="author-block">
+                <a href="https://jxhuang0508.github.io/" target="_blank">Jiaxing Huang</a><sup>1</sup>,</span>
+              <span class="author-block">
+                <a href="https://adrianwestmoon.github.io/" target="_blank">Sheng Jin</a><sup>1</sup>,</span>
+              <span class="author-block">
+                    <a href="https://personal.ntu.edu.sg/shijian.lu/" target="_blank">Shijian Lu</a><sup>1*</sup></span>
+                  </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block"><sup>1</sup>S-Lab, Nanyang Technological University, Singapore</span><br>
+                    <span class="eql-cntrb"><small><br><sup>*</sup>Corresponding author.</small></span>
+                    <br>
+                    <span class="author-block"><strong>ICCV 2023</strong></span>
+                  </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                         <!-- Arxiv PDF link -->
+                      <span class="link-block">
+                        <a href="https://openaccess.thecvf.com/content/ICCV2023/papers/Jiang_Domain_Generalization_via_Balancing_Training_Difficulty_and_Model_Capability_ICCV_2023_paper.pdf" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
+
+                           <!-- ArXiv abstract Link -->
+                      <span class="link-block">
+                        <a href="https://arxiv.org/abs/2309.00844" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="ai ai-arxiv"></i>
+                        </span>
+                        <span>arXiv</span>
+                      </a>
+                    </span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <img src="static/images/introduction.jpg" class="center-image blend-img-background"/>
+      <h2 class="subtitle has-text-justified">
+        Illustration of the proposed MoDify framework. Training domain-generalizable models often suffer from clear under-fitting (or over-fitting) if keep feeding over-difficult (or over-easy) training samples, especially at the early (or later) training stage, both leading to degraded generalization of the trained models (as illustrated in yellow/blue lines). Inspired by the Flow Theory that a learner usually has better learning outcome when the learner's skill and the task difficulty are well aligned (i.e., lying within the Flow Channel), the proposed MoDify schedules the training samples adaptively according to the alignment between the sample difficulty and the capability of contemporarily trained models (as illustrated in red line).
+      </h2>
+    </div>
+  </div>
+</section>
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Domain generalization (DG) aims to learn domain-generalizable models from one or multiple source domains that can perform well in unseen target domains. Despite its recent progress, most existing work suffers from the misalignment between the difficulty level of training samples and the capability of contemporarily trained models, leading to over-fitting or under-fitting in the trained generalization model. We design MoDify, a Momentum Difficulty framework that tackles the misalignment by balancing the seesaw between the model's capability and the samples' difficulties along the training process. MoDify consists of two novel designs that collaborate to fight against the misalignment while learning domain-generalizable models. The first is MoDify-based Data Augmentation which exploits an RGB Shuffle technique to generate difficulty-aware training samples on the fly. The second is MoDify-based Network Optimization which dynamically schedules the training samples for balanced and smooth learning with appropriate difficulty. Without bells and whistles, a simple implementation of MoDify achieves superior performance across multiple benchmarks. In addition, MoDify can complement existing methods as a plug-in, and it is generic and can work for different visual recognition tasks.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+
+
+<section class="section hero is-small">
+<div class="container is-max-desktop">
+  <div class="columns is-centered">
+    <div class="column is-full">
+      <div class="content">
+        <h2 class="title is-3">Method Overview</h2>
+        <center>
+        <img src="static/images/overall_architecture.jpg" style="max-width: 95%; height: auto;" class="center-image blend-img-background"/>
+        </center>
+        <div class="level-set has-text-justified">
+          <p>
+             Overall architecture of the proposed Momentum Difficulty (MoDify). In the MoDify-DA flow (highlighted by blue arrows), the network takes the original image as input and generates its loss, and applies the loss to compute the difficulty level with the Loss Bank. MoDify-DA dynamically adjusts the strength of data augmentation. In the MoDify-NO flow (highlighted by red arrows), the network takes the augmented image as input. Then the difficulty degree of the augmented image is calculated in the same way. MoDify-NO decides whether postpone, drop, or learn from this sample. Noted the sample is fed for training only if its difficulty level is aligned with the model's capability. Additionally, MoDify-DA introduces little computational overhead without involving any back propagation.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+
+  <section class="section hero is-light">
+<div class="container is-max-desktop">
+  <div class="columns is-centered">
+    <div class="column is-full">
+      <div class="content">
+        <h2 class="title is-3">Visualization</h2>
+        <center>
+        <img src="static/images/difficulty_vs_skill.jpg" style="max-width: 70%; height: auto;" class="center-image blend-img-background"/>
+        </center>
+        <div class="level-set has-text-justified">
+          <p>
+             Visualization of the model's capability versus the augmentation degree for new training samples (indicating the difficult level of augmented training samples) along the training iterations. Colors indicate different training iterations, ranging from red to blue as the number of iterations increases. The illustration shows that a low (or high) data augmentation degree is automatically adopted to generate training samples of low (or high) difficult levels at the early (or late) training stage when the capability of contemporarily trained models is low (or high).
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+
+  <section class="section hero is-small">
+<div class="container is-max-desktop">
+  <div class="columns is-centered">
+    <div class="column is-full">
+      <div class="content">
+        <h2 class="title is-3">Qualitative Illustration</h2>
+        <center>
+        <img src="static/images/seg_visualization.jpg" style="max-width: 95%; height: auto;" class="center-image blend-img-background"/>
+        </center>
+        <div class="level-set has-text-justified">
+          <p>
+             Qualitative illustration of domain generalizable semantic segmentation for GTAV to Cityscapes, BDD, and Mapillary. White boxes highlight regions with clear differences across the compared methods. Compared with other methods, MoDify predicts better building shapes in Row 1, better sidewalk in Row 2, and more accurate fence structures in Row 3.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<section class="section hero is-light" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <div class="box">
+      <pre><code>
+          @inproceedings{jiang2023domain,
+            title={Domain generalization via balancing training difficulty and model capability},
+            author={Jiang, Xueying and Huang, Jiaxing and Jin, Sheng and Lu, Shijian},
+            booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+            pages={18993--19003},
+            year={2023}
+          }
+      </code></pre>
+    </div>
+  </div>
+</section>
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
