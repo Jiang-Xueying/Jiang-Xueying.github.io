@@ -38,6 +38,85 @@ My research interests lie especially in the fields of 3D and 2D scene understand
 
 # 📝 Publications 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/Preprint26_CodeActionBench.jpg' alt="Robot control paradigms and the agentic Code-as-Policy process" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[CodeActionBench: Evaluating Agentic Code-as-Policy for Embodied Manipulation](https://arxiv.org/abs/2609.33807)
+
+Yiheng Lyu, <u><b>Xueying Jiang</b></u>, Wenhao Li, Shijian Lu, Gongjie Zhang
+
+<i>Preprint, 2026</i>
+
+<a href="https://arxiv.org/abs/2609.33807">paper</a>
+/ <a href="bibtex/lyu2026codeactionbench.bib">bibtex</a>
+/ <a href="https://codeactionbench.org/">project page</a>
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/Preprint26_CamVLA.jpg' alt="CamVLA predicts camera-centric actions and hand-eye geometry" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[From Fixed to Free Cameras: Calibration-Free View-Robust Vision-Language-Action Model](https://arxiv.org/abs/2607.05396)
+
+Wenhao Li, <u><b>Xueying Jiang</b></u>, Quanhao Qian, Deli Zhao, Shijian Lu, Gongjie Zhang, Ran Xu
+
+<i>Preprint, 2026</i>
+
+<a href="https://arxiv.org/abs/2607.05396">paper</a>
+/ <a href="bibtex/li2026camvla.bib">bibtex</a>
+/ <a href="https://alibaba-damo-academy.github.io/CamVLA/">project page</a>
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/Preprint26_CameraRobust.jpg' alt="Comparison of RGB-only, tool-assisted and equation-anchored 3D localization" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Towards Camera-Robust 3D Localization: Equation-Anchored Tool-Use for MLLMs](https://arxiv.org/abs/2605.19528)
+
+<u><b>Xueying Jiang</b></u>, Wenhao Li, Quanhao Qian, Deli Zhao, Shijian Lu, Gongjie Zhang, Ran Xu
+
+<i>Preprint, 2026</i>
+
+<a href="https://arxiv.org/abs/2605.19528">paper</a>
+/ <a href="bibtex/jiang2026camerarobust.bib">bibtex</a>
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ECCV 2026</div><img src='images/ECCV26_VLMIE3D.jpg' alt="VLM-IE3D combines visual tokens with implicit and explicit 3D geometry" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[3D-Aware VLMs with Implicit and Explicit Geometries](https://arxiv.org/abs/2607.21595)
+
+Wenhao Li, <u><b>Xueying Jiang</b></u>, Quanhao Qian, Deli Zhao, Ran Xu, Shijian Lu, Gongjie Zhang
+
+<i>ECCV, 2026</i>
+
+<a href="https://arxiv.org/abs/2607.21595">paper</a>
+/ <a href="bibtex/li2026vlmie3d.bib">bibtex</a>
+/ <a href="https://github.com/alibaba-damo-academy/VLM-IE3D">code</a>
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR Findings 2026</div><img src='images/CVPR26Findings_STSMixer.jpg' alt="STS-Mixer processes point cloud videos across three frequency bands" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[STS-Mixer: Spatio-Temporal-Spectral Mixer for 4D Point Cloud Video Understanding](https://openaccess.thecvf.com/content/CVPR2026F/html/Li_STS-Mixer_Spatio-Temporal-Spectral_Mixer_for_4D_Point_Cloud_Video_Understanding_CVPRF_2026_paper.html)
+
+Wenhao Li, <u><b>Xueying Jiang</b></u>, Gongjie Zhang, Xiaoqin Zhang, Ling Shao, Shijian Lu
+
+<i>CVPR Findings, 2026</i>
+
+<a href="https://openaccess.thecvf.com/content/CVPR2026F/html/Li_STS-Mixer_Spatio-Temporal-Spectral_Mixer_for_4D_Point_Cloud_Video_Understanding_CVPRF_2026_paper.html">paper</a>
+/ <a href="bibtex/li2026stsmixer.bib">bibtex</a>
+/ <a href="https://github.com/Vegetebird/STS-Mixer">code</a>
+
+</div>
+</div>
+
 [//]: # (----------- Preprint 2025 -------------------------)
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/Preprint25_Exploring.jpg' alt="sym" width="100%"></div></div>
@@ -203,7 +282,7 @@ Jingyi Zhang, Jiaxing Huang, <u><b>Xueying Jiang</b></u>, Shijian Lu
 
 
 ## Journal Reviewer
-- IEEE TCSVT
+- IEEE TCSVT, IEEE TPAMI
 
 
 <span class='anchor' id='teaching'></span>
